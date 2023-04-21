@@ -1,0 +1,45 @@
+* {
+    font-family: Roboto; 
+}
+
+.header {
+    display: flex;
+    flex:1;
+    background-color: #1f2937;
+    color: #e5e7eb;;
+    gap: 10px;
+}
+
+.header-logo {
+    display: flex;
+    flex: 3;
+    gap: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header-link-one, .header-link-two, .header-link-three {
+    display: flex;
+    flex:1;
+    width: 100px;
+}
+
+.header-link-three {
+    margin-right: 100px;
+    min-width: fit-content;
+    flex-shrink: 0;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+img {
+    width: 400px;
+    margin: 100px;
+}
