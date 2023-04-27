@@ -81,6 +81,7 @@ button {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 100px;
 }    
 
 p {
@@ -100,9 +101,12 @@ p {
 }
 
 .sig {
+   display: flex; 
+   justify-content: end;
    align-items: end;
    font-weight: bolder;
    font-size: 26px;
+   padding-left: 40%;
 }
 
 .call-text {
@@ -112,4 +116,25 @@ p {
 
 .call {
     display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    align-items: center;
+    margin: 100px;
+    padding:50px;
+    gap: 25px;
+}
+
+.sign-up {
+    width: 100px;
+    line-height: 25px;
+    border:1px solid #1f2937;
+    gap: 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
